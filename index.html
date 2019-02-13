@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="analogButton">Analogues</button>
+    <button class="monochromatic">Monochromatic</button>
+    <button class="triad">Triad</button>
+    <button class="complimentary">Complimentary</button>
+    <button class="compound">Compound</button>
+    <button class="shade">Shade</button>
+
+    <div class="colorBox">
+      <box class="color" id="box3"></box>
+      <box class="color" id="box1"></box>
+      <box class="color" id="box0"></box>
+      <box class="color" id="box2"></box>
+      <box class="color" id="box4"></box>
+    </div>
+
+    <div class="hexBox">
+      <p id="p3"></p>
+      <p id="p1"></p>
+      <p id="p0"></p>
+      <p id="p2"></p>
+      <p id="p4"></p>
+    </div>
+
+    <label for="colorWell">Color:</label>
+    <input type="color" value="#ff0000" id="colorWell" />
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
