@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: grey;
+  background-color: whitesmoke;
 }
 .color {
   width: 10vw;
@@ -20,7 +20,7 @@ body {
 }
 
 button {
-  background-color: white;
+  background-color: grey;
   border: none;
   color: black;
   padding: 15px 32px;
